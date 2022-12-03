@@ -1,0 +1,69 @@
+/*regras*/
+@charset "utf-8";
+
+/*configurações globais*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*configurações da pagina*/
+html, body{
+    min-height: 100vh;
+    background-color: gray;
+
+}
+/*cabeçalho*/
+header{
+ background-color: black;
+ color: white;
+ text-align: center;
+}
+/*titulo do cabeçalho*/
+header>h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+/*paragrafo do cabeçalho*/
+header>p{
+    padding-bottom: 50px;
+}
+/*links*/
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+/*animação*/
+a:hover{
+    text-shadow: 1px 1px 1px lightgray;
+}
+/*seção*/
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height:2em;
+    padding-left: 30px;
+}
+/*seção sem imagem*/
+section.normal{
+    background-color: white;
+    color: black;
+}
+/*seção com imagem*/
+section.imagem{
+    background-color: darkgray;
+    color: white;
+
+}
+/*paragrafo da seção com imagem*/
+section.imagem > p{
+    width: 400px;
+    background-color: hsla(0, 0%, 0%, 0.253);
+}
+/*rodape*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
