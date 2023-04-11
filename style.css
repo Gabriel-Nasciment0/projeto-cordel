@@ -1,95 +1,96 @@
 /*regras*/
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap");
 
 /*variaveis*/
-:root{
-    --font01:Verdana, Geneva, Tahoma, sans-serif;
-    --font02:'Passion One', cursive;
-    --font03:'Sriracha', cursive;
+:root {
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02: "Passion One", cursive;
+    --font03: "Sriracha", cursive;
 }
 /*configurações globais*/
-*{
+* {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 /*configurações da pagina*/
-html, body{
+html,
+body {
     min-height: 100vh;
     background-color: gray;
     font-family: var(--font01);
 }
 /*cabeçalho*/
-header{
- background-color: black;
- color: white;
- text-align: center;
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 /*titulo do cabeçalho*/
-header>h1{
+header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font02);
     font-size: 10vw;
 }
 /*paragrafo do cabeçalho*/
-header>p{
+header > p {
     padding-bottom: 50px;
 }
 /*links*/
-a{
+a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
 /*animação*/
-a:hover{
+a:hover {
     text-shadow: 1px 1px 1px lightgray;
 }
 /*seção*/
-section{
+section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height:2em;
+    line-height: 2em;
     padding-left: 30px;
     font-family: var(--font03);
     font-size: 3vw;
 }
 /*paragrafo da seção*/
-section>p{
+section > p {
     padding-bottom: 2em;
 }
 /*seção sem imagem*/
-section.normal{
+section.normal {
     background-color: white;
     color: black;
 }
 /*seção com imagem*/
-section.imagem{
+section.imagem {
     background-color: darkgray;
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.523);
     background-size: cover;
     background-attachment: fixed;
-
 }
 /*paragrafo da seção com imagem*/
-section.imagem > p{
+section.imagem > p {
     display: inline-block;
     padding: 15px;
     background-color: hsla(0, 0%, 0%, 0.253);
     text-shadow: 1px 1px 0px black;
 }
 /*imagem da seção*/
-section#img01{
+section#img01 {
     background-image: url(imagens/background001.jpg);
     background-position: right center;
 }
-section#img02{
+section#img02 {
     background-image: url(imagens/background002.jpg);
 }
 /*rodape*/
-footer{
+footer {
     background-color: black;
     color: white;
     text-align: center;
